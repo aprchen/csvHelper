@@ -27,5 +27,8 @@
         "psr-4": {
             "AprchenTest\\CsvHelper\\": "test"
         }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit -c phpunit.xml"
     }
 }
