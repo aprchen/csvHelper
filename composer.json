@@ -1,7 +1,9 @@
 {
     "name": "sl/csv-helper",
-    "description": "协程读取,不占用系统内存,处理速度快,可以识别编码",
+    "description": "协程读取,处理速度快,可以识别编码",
     "type": "library",
+    "license": "Apache-2.0",
+    "keywords": ["csv", "import", "export", "read", "write", "filter"],
     "authors": [
         {
             "name": "ott321",
@@ -19,5 +21,10 @@
             "Sl\\CsvHelper\\": "src"
         },
         "files": ["src/Helper/Functions.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sl\\CsvHelper\\": "test"
+        }
     }
 }
