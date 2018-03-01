@@ -9,6 +9,6 @@
 
  安装
 ```
-    composer require aprchen/csv-helper
-    
+composer require aprchen/csv-helper
+   
 ```
