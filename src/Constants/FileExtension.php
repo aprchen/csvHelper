@@ -6,7 +6,7 @@
  * Time: 下午4:56
  */
 
-namespace Sl\CsvHelper\Constants;
+namespace Aprchen\CsvHelper\Constants;
 
 
 class FileExtension

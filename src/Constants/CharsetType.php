@@ -6,7 +6,7 @@
  * Time: 下午2:24
  */
 
-namespace Sl\CsvHelper\Constants;
+namespace Aprchen\CsvHelper\Constants;
 
 
 class CharsetType

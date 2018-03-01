@@ -6,10 +6,9 @@
  * Time: 下午4:19
  */
 
-namespace Sl\CsvHelper\Bean;
+namespace Aprchen\CsvHelper\Bean;
 
 
-use Sl\CsvHelper\Mapping\FileInterface;
 
 class File implements FileInterface
 {

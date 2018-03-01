@@ -6,7 +6,9 @@
  * Time: 下午9:07
  */
 
-namespace Sl\CsvHelper;
+namespace Aprchen\CsvHelper;
+use Aprchen\CsvHelper\Mapping\FileInterface;
+
 /**
  * Class ScanDir
  * @package App\Component
@@ -77,6 +79,7 @@ class ScanDir
                 if (is_dir($dir . DS . $item)) {
                     $this->run($dir . DS . $item);
                 }
+                /** @var FileInterface $file */
                 $file = FileFactory::createFileWithPath($dir . DS . $item);
                 if ($this->getFileExtension()) {
                     if ($this->fileExtension !== $file->getExtension()) {

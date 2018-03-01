@@ -6,11 +6,11 @@
  * Time: 下午4:02
  */
 
-namespace Sl\CsvHelper;
+namespace Aprchen\CsvHelper;
 
 
-use Sl\CsvHelper\Bean\File;
-use Sl\CsvHelper\Constants\FileMode;
+use Aprchen\CsvHelper\Bean\File;
+use Aprchen\CsvHelper\Constants\FileMode;
 
 class FileFactory
 {

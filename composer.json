@@ -1,5 +1,5 @@
 {
-    "name": "sl/csv-helper",
+    "name": "aprchen/csv-helper",
     "description": "协程读取,处理速度快,可以识别编码",
     "type": "library",
     "license": "Apache-2.0",
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sl\\CsvHelper\\": "src"
+            "Aprchen\\CsvHelper\\": "src"
         },
         "files": ["src/Helper/Functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "Sl\\CsvHelper\\": "test"
+            "AprchenTest\\CsvHelper\\": "test"
         }
     }
 }

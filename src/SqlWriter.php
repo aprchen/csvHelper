@@ -6,11 +6,9 @@
  * Time: 下午6:45
  */
 
-namespace Sl\CsvHelper;
+namespace Aprchen\CsvHelper;
 
-use App\Lib\FileInterface;
-use Sl\CsvHelper\Constants\WriteWay;
-use Swoft\Bean\Annotation\Bean;
+use Aprchen\CsvHelper\Constants\WriteWay;
 
 /**
  * Class SqlWriter

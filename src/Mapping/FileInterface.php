@@ -6,7 +6,7 @@
  * Time: 下午1:48
  */
 
-namespace Sl\CsvHelper\Mapping;
+namespace Aprchen\CsvHelper\Mapping;
 
 
 interface FileInterface

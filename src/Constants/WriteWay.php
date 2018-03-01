@@ -6,7 +6,7 @@
  * Time: 下午12:19
  */
 
-namespace Sl\CsvHelper\Constants;
+namespace Aprchen\CsvHelper\Constants;
 
 
 class WriteWay

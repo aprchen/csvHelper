@@ -6,10 +6,7 @@
  * Time: 上午10:15
  */
 
-namespace Sl\CsvHelper\Charset;
-
-use Sl\CsvHelper\Mapping\CharsetHelperInterface;
-use Sl\CsvHelper\Mapping\FileInterface;
+namespace Aprchen\CsvHelper\Charset;
 
 /**
  * Class CharsetHelper

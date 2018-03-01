@@ -6,8 +6,7 @@
  * Time: 下午2:48
  */
 
-namespace Sl\CsvHelper\Mapping;
-
+namespace Aprchen\CsvHelper\Mapping;
 
 abstract class FileReaderAbstract
 {

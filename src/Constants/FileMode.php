@@ -6,7 +6,7 @@
  * Time: 下午4:42
  */
 
-namespace Sl\CsvHelper\Constants;
+namespace Aprchen\CsvHelper\Constants;
 
 
 class FileMode

@@ -6,7 +6,7 @@
  * Time: 上午10:41
  */
 
-namespace Sl\CsvHelper\Mapping;
+namespace Aprchen\CsvHelper\Mapping;
 
 interface CharsetHelperInterface
 {
