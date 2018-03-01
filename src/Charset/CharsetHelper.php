@@ -9,6 +9,7 @@
 namespace Aprchen\CsvHelper\Charset;
 
 use Aprchen\CsvHelper\Mapping\CharsetHelperInterface;
+use Aprchen\CsvHelper\Mapping\FileInterface;
 
 /**
  * Class CharsetHelper
