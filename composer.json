@@ -1,0 +1,23 @@
+{
+    "name": "sl/csv-helper",
+    "description": "协程读取,不占用系统内存,处理速度快,可以识别编码",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ott321",
+            "email": "ott321@yeah.net"
+        }
+    ],
+    "require": {
+        "require": {
+            "php" : ">=7.0.10",
+            "ext-mbstring" : "*"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sl\\CsvHelper\\": "src"
+        },
+        "files": ["src/Helper/Functions.php"]
+    }
+}
