@@ -10,6 +10,8 @@ namespace Aprchen\CsvHelper\Bean;
 
 
 
+use Aprchen\CsvHelper\Mapping\FileInterface;
+
 class File implements FileInterface
 {
     const OPEN = 1;

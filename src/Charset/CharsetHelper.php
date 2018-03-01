@@ -8,6 +8,8 @@
 
 namespace Aprchen\CsvHelper\Charset;
 
+use Aprchen\CsvHelper\Mapping\CharsetHelperInterface;
+
 /**
  * Class CharsetHelper
  * @package App\Component
