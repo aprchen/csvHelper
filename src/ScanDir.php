@@ -7,11 +7,11 @@
  */
 
 namespace Aprchen\CsvHelper;
+
 use Aprchen\CsvHelper\Mapping\FileInterface;
 
 /**
  * Class ScanDir
- * @package App\Component
  */
 class ScanDir
 {

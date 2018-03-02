@@ -8,8 +8,7 @@
 
 namespace Aprchen\CsvHelper\Bean;
 
-
-
+use Aprchen\CsvHelper\Constants\FileMode;
 use Aprchen\CsvHelper\Mapping\FileInterface;
 
 class File implements FileInterface
