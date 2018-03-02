@@ -11,7 +11,7 @@ namespace Aprchen\CsvHelper\Mapping;
 interface CharsetHelperInterface
 {
 
-    public function getFileEncodingWithPath(FileInterface $file);
+    public function getEncoding(FileInterface $file);
 
     public function setEncoding($string, $inCharset, $outCharset);
 

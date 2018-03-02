@@ -33,7 +33,7 @@ class Reader extends FileOperator
     /**
      * @return iterable
      */
-    public function getFileContent(): iterable
+    public function getContent(): iterable
     {
         $handle = $this->file->getHandle();
         if(is_resource($handle)){

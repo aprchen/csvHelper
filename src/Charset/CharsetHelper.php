@@ -59,17 +59,17 @@ class CharsetHelper implements CharsetHelperInterface
      * @param FileInterface $file
      * @return bool|false|mixed|string
      */
-    public  function getFileEncodingWithPath(FileInterface $file)
+    public  function getEncoding(FileInterface $file)
     {
         $path = $file->getPath();
         $string = $this->getString($path,self::DEFAULT_LENGTH);
         if($string){
-            return $this->getFileEncodingWithString($string);
+            return $this->getEncodingWithString($string);
         }
         return false;
     }
 
-    public  function getFileEncodingWithString($str)
+    public  function getEncodingWithString($str)
     {
         $encoding = $this->detectUtfEncodingWithBom($str);
         if($encoding){
