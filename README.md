@@ -8,5 +8,24 @@
 
  安装
 ```
-composer require aprchen/csv-helper 
+composer require aprchen/csv-helper dev-master 
+```
+
+使用方法:
+
+通过路径读取
+```
+
+/** @var Aprchen\CsvHelper\Mapping\FileInterface $file */
+$file = Aprchen\CsvHelper\FileFactory::createFileWithPath($path);
+$reader = new Aprchen\CsvHelper\Reader();
+$reader->setFile($file);
+$content = $reader->getContent();
+$fileEncoding = (new Aprchen\CsvHelper\CharsetHelper())->getEncoding($file);
+
+foreach($content as $item){
+  //todo
+}
+
+
 ```
