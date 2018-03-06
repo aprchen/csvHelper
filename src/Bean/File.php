@@ -180,7 +180,7 @@ class File implements FileInterface
     }
 
     public function close(){
-        if($this->handle){
+        if(is_resource($this->handle)){
             fclose($this->handle);
         }
     }
